@@ -1,0 +1,100 @@
+/*   
+Theme Name: Sindad
+Theme URI: http://www.sindad.com
+Description: An image-less template focusing on Typography.
+Author: Mohammad Pourcheriki
+Author URI: http://www.mpch.ir
+Version: 1.0
+.
+General comments/License Statement if any.
+.
+*/
+
+*{
+    box-sizing: border-box;
+    font-family: iransans;
+    direction: rtl;
+    text-align: justify;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+.first{
+    height: 100%;
+    min-height: 500px;
+    background-color: #f4bb27; 
+    /* background-image: url("airplane_sr.jpg"); */
+    /* background-repeat: no-repeat; */
+    /* background-position: left center; */
+    position: relative;
+    /* background-size: 50%; */
+}
+
+.second{
+    height: 100%;
+    background-color: white;
+}
+
+#scroller{
+    width: 115px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    display: inline-block;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.second .card img{
+    width: 100px;
+}
+
+.second .card p{
+    text-align: justify;
+    font-size: 0.9rem;
+}
+
+.bg-orange{
+    background-color: orangered;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white !important;
+}
+
+.nav-link:hover{
+    color: wheat !important;
+}
+
+.first .page-header .ul{
+    list-style:none;
+    color: white;    
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.header-left{
+    order : 0;
+}
+
+.first .header-left .link{
+    text-decoration: none;
+    color: white !important;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+img.character{
+    object-fit: contain;
+}

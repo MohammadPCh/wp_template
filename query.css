@@ -1,0 +1,24 @@
+@media (min-width: 576px) {
+    .sm-order-1{order:1};
+    .sm-order-2{order:2};
+    .sm-order-3{order:3};
+    .sm-order-4{order:4};
+    .sm-order-5{order:5};
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .md-order-1{order:1};
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .lg-order-1{order:1};
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .xl-order-1{order:1};
+
+}
