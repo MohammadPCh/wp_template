@@ -1,2 +1,2 @@
-# sindad_web
+# web_template
 Sindad WordPress Template
